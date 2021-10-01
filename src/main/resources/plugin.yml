@@ -1,0 +1,8 @@
+name: TestServer
+main: net.azisaba.testServer.TestServer
+version: 1.0.0
+api-version: 1.17
+commands:
+  createdatabase:
+    permission: testserver.createdatabase
+    aliases: ["createdb"]
